@@ -83,7 +83,7 @@ okun_coefficients_plot <- okun_models |>
   unnest(tidy_model) |>
   filter(term == "gdp_growth") |>
   ggplot(aes(x = reorder(country_name, estimate), y = estimate)) +
-  geom_point(size = 3) +
+  geom_point(size = 12, shape = "*", color = "red") +
   geom_errorbar(
     aes(ymin = estimate - 1.96 * std.error, ymax = estimate + 1.96 * std.error),
     width = 0.2
