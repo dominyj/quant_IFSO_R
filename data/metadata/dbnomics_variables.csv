@@ -1,0 +1,3 @@
+source,dbnomics_id,countrycode_type,variable_name,description
+OECD,OECD/QNA/{countrycode}.B1_GE.GPSA.Q,iso3c,gdp_growth,"Real GDP growth rate, seasonally adjusted"
+OECD,OECD/MEI/{countrycode}.LRHUTTTT.STSA.Q,iso3c,unemployment_rate,"Harmonized unemployment rate, seasonally adjusted"
