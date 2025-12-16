@@ -34,7 +34,7 @@ okun_models <- readRDS(here("output/models/okun_models_by_country.rds"))
 
 plot_pooled <- ggplot(analysis_data, aes(x = gdp_growth, y = unemployment_rate)) +
   geom_point(alpha = 0.5) +
-  geom_smooth(method = "lm", se = TRUE, color = "green") +
+  geom_smooth(method = "lm", se = TRUE, color = "red") +
   labs(
     title = "Okun's Law: Pooled Data",
     x = "GDP Growth Rate (%)",
